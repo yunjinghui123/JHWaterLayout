@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C046A141FE95EB4005C78F5 /* JHWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C046A121FE95EB4005C78F5 /* JHWaterLayout.m */; };
 		1C30FAD11FC70A8800229124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C30FAD01FC70A8800229124 /* AppDelegate.m */; };
 		1C30FAD41FC70A8800229124 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C30FAD31FC70A8800229124 /* ViewController.m */; };
 		1C30FAD71FC70A8800229124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C30FAD51FC70A8800229124 /* Main.storyboard */; };
 		1C30FAD91FC70A8800229124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C30FAD81FC70A8800229124 /* Assets.xcassets */; };
 		1C30FADC1FC70A8800229124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C30FADA1FC70A8800229124 /* LaunchScreen.storyboard */; };
 		1C30FADF1FC70A8800229124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C30FADE1FC70A8800229124 /* main.m */; };
-		1C30FAE71FC70AB900229124 /* JHWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C30FAE61FC70AB900229124 /* JHWaterLayout.m */; };
 		1C30FAED1FC70B6B00229124 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C30FAEC1FC70B6B00229124 /* WaterViewController.m */; };
 		1C6451561FC72F5F0054FE25 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6451541FC72F5F0054FE25 /* TestCell.m */; };
 		1C6451571FC72F5F0054FE25 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6451551FC72F5F0054FE25 /* TestCell.xib */; };
@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C046A121FE95EB4005C78F5 /* JHWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaterLayout.m; sourceTree = "<group>"; };
+		1C046A131FE95EB4005C78F5 /* JHWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaterLayout.h; sourceTree = "<group>"; };
 		1C30FACC1FC70A8800229124 /* mm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C30FACF1FC70A8800229124 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C30FAD01FC70A8800229124 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,8 +33,6 @@
 		1C30FADB1FC70A8800229124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C30FADD1FC70A8800229124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C30FADE1FC70A8800229124 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C30FAE51FC70AB900229124 /* JHWaterLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHWaterLayout.h; sourceTree = "<group>"; };
-		1C30FAE61FC70AB900229124 /* JHWaterLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHWaterLayout.m; sourceTree = "<group>"; };
 		1C30FAEA1FC70B0000229124 /* mm-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mm-PrefixHeader.pch"; sourceTree = "<group>"; };
 		1C30FAEB1FC70B6B00229124 /* WaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
 		1C30FAEC1FC70B6B00229124 /* WaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
@@ -53,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C046A111FE95EB4005C78F5 /* WaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1C046A131FE95EB4005C78F5 /* JHWaterLayout.h */,
+				1C046A121FE95EB4005C78F5 /* JHWaterLayout.m */,
+			);
+			name = WaterFlowLayout;
+			path = ../../WaterFlowLayout;
+			sourceTree = "<group>";
+		};
 		1C30FAC31FC70A8700229124 = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +82,8 @@
 		1C30FACE1FC70A8800229124 /* mm */ = {
 			isa = PBXGroup;
 			children = (
+				1C046A111FE95EB4005C78F5 /* WaterFlowLayout */,
 				1C6451521FC72E0E0054FE25 /* Test */,
-				1C6451511FC72DE30054FE25 /* WaterFlowLayout */,
 				1C30FACF1FC70A8800229124 /* AppDelegate.h */,
 				1C30FAD01FC70A8800229124 /* AppDelegate.m */,
 				1C30FAD21FC70A8800229124 /* ViewController.h */,
@@ -87,15 +97,6 @@
 				1C30FAEA1FC70B0000229124 /* mm-PrefixHeader.pch */,
 			);
 			path = mm;
-			sourceTree = "<group>";
-		};
-		1C6451511FC72DE30054FE25 /* WaterFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				1C30FAE51FC70AB900229124 /* JHWaterLayout.h */,
-				1C30FAE61FC70AB900229124 /* JHWaterLayout.m */,
-			);
-			path = WaterFlowLayout;
 			sourceTree = "<group>";
 		};
 		1C6451521FC72E0E0054FE25 /* Test */ = {
@@ -185,10 +186,10 @@
 				1C30FAD41FC70A8800229124 /* ViewController.m in Sources */,
 				1C6451561FC72F5F0054FE25 /* TestCell.m in Sources */,
 				1C64515D1FC7357A0054FE25 /* UIViewController+Extension.m in Sources */,
-				1C30FAE71FC70AB900229124 /* JHWaterLayout.m in Sources */,
 				1C30FADF1FC70A8800229124 /* main.m in Sources */,
 				1C30FAD11FC70A8800229124 /* AppDelegate.m in Sources */,
 				1C30FAED1FC70B6B00229124 /* WaterViewController.m in Sources */,
+				1C046A141FE95EB4005C78F5 /* JHWaterLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
