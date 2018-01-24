@@ -9,17 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @protocol JHWaterLayoutDelegate;
+
 @interface JHWaterLayout : UICollectionViewLayout
-
 @property (nonatomic, weak) id<JHWaterLayoutDelegate> delegate;
-
 @end
-
 
 @protocol JHWaterLayoutDelegate <NSObject>
 
 @required
-
 /**
  传给布局的高度
 
