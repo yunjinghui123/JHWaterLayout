@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JHWaterLayout"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A flowlayout Class"
   s.homepage     = "https://github.com/yunjinghui123/JHWaterLayout"
   s.license      = "MIT"
