@@ -31,7 +31,6 @@ static NSString * const reuseIdentifier = @"shop";
     [self.collectionView registerNib:[UINib nibWithNibName:@"TestCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
 }
 
-
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
